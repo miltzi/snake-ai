@@ -2,9 +2,6 @@
 
 ### Notices
 
-- _**09/10/2015: Even more bug fixes - redownload to get the latest fixes**_
-- _04/10/2015: Bug fixes - If you have already downloaded the Snake Visualiser, please redownload and continue to work with this latest version_
-- In order to submit you must have a Wits Moodle account. If you don't have one, email dean.wookey@students.wits.ac.za with your username (student number if student).
 
 The Snake interactive challenge is an AI programming challenge open to any Wits student or staff member. The goal is simple: create a program which controls a snake such that it grows to a length longer than any other snake by eating red apples and trapping opposing players. There will be two categories for final judging which are the open category, open to anyone, and a category for the first and second years only.   
   
@@ -109,7 +106,7 @@ In order to submit you must have a moodle account. If you don't have one you can
 
 ### Testing
 
-To test your program without submitting, you can download the [standalone snake server](http://lamp.ms.wits.ac.za/snake/SnakeVisualiser2015.jar). To run the server your computer must have java installed. Note that to test your program using the tester, you must create a .jar file from your code. If you need to know how to create a **runnable** jar file from your Eclipse project, please google this. If you get horribly stuck, email pravesh.ranchod@wits.ac.za. Once you have a .jar file, you can test your code with the following command:
+To test your program without submitting, you can download the [standalone snake server]. To run the server your computer must have java installed. 
 
 java -jar SnakeVisualiser2015.jar [-j javaprogram.jar] [-p pythonprogram] [-h wsad|normal] [-s movedelay] [-d duration]
 For example if your SnakeVisualiser2015.jar is in the same folder as your java program which is called mysnake.jar, then you could use the following line to test it:
